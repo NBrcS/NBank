@@ -2,7 +2,7 @@
 
 Hi visitor!!!
 
-In this repository i put my initial bank software on JAVA, maked on INTELIJJ
+In this repository i put my initial bank software on JAVA, maked on INTELIJJ.
 this software isn't the best bank software, but i like him
 
 The software doesn't have a live actualization about the rates on economic market,
