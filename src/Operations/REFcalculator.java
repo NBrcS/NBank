@@ -1,11 +1,10 @@
 package Operations;
 
 import Invests.REF;
-import com.sun.tools.javac.Main;
 
 import java.util.Scanner;
 
-public class REFcalculator extends Main {
+public class REFcalculator{
     private static Scanner scanner = new Scanner(System.in);
 
     public static void Calculate(){
