@@ -1,3 +1,4 @@
+import Invests.FixedIncome;
 import Operations.Interfaces;
 import Operations.REFcalculator;
 import Operations.iopatrimony;
@@ -107,6 +108,15 @@ public class Main {
                                     case 1 ->{
                                         REFcalculator.Calculate();
                                         break;
+                                    }
+                                    case 2 ->{
+                                        Interfaces.FixedIncomesMenu();
+                                        option = scanner.nextInt();
+                                        switch (option) {
+                                            case 1 ->{
+                                                System.out.print("How much do you want withdraw? ");
+                                            }
+                                        }
                                     }
                                     case 0 ->{
                                         break;

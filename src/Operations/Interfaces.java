@@ -26,9 +26,16 @@ public class Interfaces {
     public static void investMenu(){
         System.out.println("These are the available options\n");
         System.out.println("[ 1 ] - Real state founds");
+        System.out.println("[ 2 ] - Fixed income");
         System.out.println("[ 0 ] - Return");
 
         System.out.print("\nChoice: ");
+    }
+
+    public static void FixedIncomesMenu(){
+        System.out.println("These are the available options\n");
+        System.out.println("[ 1 ] - Calculate the year incomes");
+        System.out.println("[ 2 ] - Calculate the monthly incomes");
     }
 
     public static void yesNo(){
